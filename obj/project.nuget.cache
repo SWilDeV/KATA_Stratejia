@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "NXoS3mxJWS1aJDswaxQr4K35myQmxSBtA0KKNv5z43H9LgdnoCMaaG7XVsmS50EBQdVlgvBap5LkkAmK19CLjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sean-Laptop\\OneDrive\\DEV\\CSharp\\Projects\\KATA_Stratejia\\KATA_Stratejia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sean-Laptop\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
