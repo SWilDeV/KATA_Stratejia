@@ -40,9 +40,9 @@ namespace KATA_Stratejia
                             day = columnAValue;
                         }
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
-                        Console.WriteLine($"An error occurred: {ex.Message}");
+                        continue;
                     }
                 }
             }

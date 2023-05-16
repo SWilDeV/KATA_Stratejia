@@ -38,9 +38,9 @@ namespace KATA_Stratejia
                             city = TeamCity;
                         }
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
-                        Console.WriteLine($"An error occurred: {ex.Message}");
+                        continue;
                     }
                 }
             }

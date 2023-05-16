@@ -10,9 +10,9 @@ class Program
     static void Main(string[] args)
     {
         
-        //runWeather();
+        runWeather();
         //runFootball();
-        runDRYVersion();
+        //runDRYVersion();
         
     }
 
