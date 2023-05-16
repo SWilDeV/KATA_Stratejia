@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace KATA_Stratejia
 {
-    internal class CSVProcessor
+    internal class FileProcessor
     {
         public string Filename { get; }
 
-        public CSVProcessor(string filename)
+        public FileProcessor(string filename)
         {
             Filename = filename;
         }
