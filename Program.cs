@@ -12,16 +12,16 @@ class Program
         
         //runWeather();
         //runFootball();
-        //runDRYVersion();
+        runDRYVersion();
         
     }
 
-    static void runWeather()
+    static void runWeather() //
     {
         try
         {
-            Weather weather = new Weather();
-            string weatherDay = weather.getDayWithLowestSpread();
+            Weather weather = new Weather(); 
+            string weatherDay = weather.getDayWithLowestSpread(); //Determine which day has lowest spread with the weather.dat file
 
             if (weatherDay != null)
             {
@@ -44,8 +44,8 @@ class Program
     {
         try
         {
-            Football football = new Football();
-            string team = football.getCityWithLowestDifference();
+            Football football = new Football(); 
+            string team = football.getCityWithLowestDifference(); //Determine which team has lowest difference with the football.dat file
 
             if (team != null)
             {
@@ -68,8 +68,8 @@ class Program
         string answer = "";        
         while (answer != "q")
         {
-            Clogger.initialPrompt();
-            answer = Clogger.getAnswer();
+            Clogger.initialPrompt(); //Call ConsoleLogger class to show the different options for the user
+            answer = Clogger.getAnswer(); // Get the answer from the user
 
             switch (answer)
             {
@@ -82,12 +82,11 @@ class Program
                     break;
 
                 case "q":
-                    Clogger.log("Goodbye !");
+                    Clogger.log(ConfigurationManager.AppSettings["goodbye"]);
                     break;
 
                 default:
-
-                    Clogger.log("Wrong input\n");
+                    Clogger.log(ConfigurationManager.AppSettings["wrongInput"]);
                     break;
             }
         }

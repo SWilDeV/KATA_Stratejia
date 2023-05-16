@@ -8,9 +8,12 @@ namespace KATA_Stratejia
 {
     internal class Weather
     {
+        private string filename = "weather.dat";
+        public Weather() { }
+        
         public string getDayWithLowestSpread()
         {
-            string filename = "weather.dat";
+            
             string day = "";
             double smallestDifference = double.MaxValue;
 
@@ -37,9 +40,9 @@ namespace KATA_Stratejia
                             day = columnAValue;
                         }
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
-                        continue;
+                        Console.WriteLine($"An error occurred: {ex.Message}");
                     }
                 }
             }

@@ -8,9 +8,11 @@ namespace KATA_Stratejia
 {
     internal class Football
     {
+        private string filename = "football.dat";
+
+        public Football() { }
         public string getCityWithLowestDifference()
         {
-            string filename = "football.dat";
             string city = "";
             double smallestDifference = double.MaxValue;
 
@@ -36,9 +38,9 @@ namespace KATA_Stratejia
                             city = TeamCity;
                         }
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
-                        continue;
+                        Console.WriteLine($"An error occurred: {ex.Message}");
                     }
                 }
             }
