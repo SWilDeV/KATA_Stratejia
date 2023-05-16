@@ -12,9 +12,7 @@ class Program
         
         //runWeather();
         //runFootball();
-
-        
-        runDRYVersion();
+        //runDRYVersion();
         
     }
 
@@ -76,11 +74,11 @@ class Program
             switch (answer)
             {
                 case "1":
-                    launchProcessing("weather.dat", 0, 1, 2, "weather");
+                    launchFileProcessing("weather.dat", 0, 1, 2, "weather");
                     break;
 
                 case "2":
-                    launchProcessing("football.dat", 1, 6, 8, "football");
+                    launchFileProcessing("football.dat", 1, 6, 8, "football");
                     break;
 
                 case "q":
@@ -95,7 +93,7 @@ class Program
         }
     }
 
-    static void launchProcessing(string filename, int col1, int col2, int col3, string p_sentence )
+    static void launchFileProcessing(string filename, int col1, int col2, int col3, string p_sentence )
     {
         try
         {
