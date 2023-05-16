@@ -27,8 +27,8 @@ namespace KATA_Stratejia
                     {
                         string TeamCity = parts[1];
                         double goalsScored = double.Parse(parts[6]);
-                        double goalsConcided = double.Parse(parts[8]);
-                        double difference = Math.Abs(goalsScored - goalsConcided);
+                        double goalsConceded = double.Parse(parts[8]);
+                        double difference = Math.Abs(goalsScored - goalsConceded);
 
                         if (difference < smallestDifference)
                         {
